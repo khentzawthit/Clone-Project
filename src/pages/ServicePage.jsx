@@ -1,8 +1,11 @@
 import React from 'react'
+import ServiceHeader from '../components/ServiceHeader'
 
 const ServicePage = () => {
   return (
-    <div>ServicePage</div>
+   <>
+   <ServiceHeader/>
+   </>
   )
 }
 

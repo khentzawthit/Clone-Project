@@ -15,18 +15,18 @@ const NavBar = () => {
       link: "/service",
       active: false,
     },
-    {
-      id: 3,
-      name: "Why Us",
-      link: "/why-us",
-      active: false,
-    },
-    {
-      id: 4,
-      name: "Testimonial",
-      link: "/testimonial",
-      active: false,
-    },
+    // {
+    //   id: 3,
+    //   name: "Why Us",
+    //   link: "/why-us",
+    //   active: false,
+    // },
+    // {
+    //   id: 4,
+    //   name: "Testimonial",
+    //   link: "/testimonial",
+    //   active: false,
+    // },
     {
       id: 5,
       name: "FAQ",
