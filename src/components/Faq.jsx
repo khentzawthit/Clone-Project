@@ -14,12 +14,12 @@ const Faq = ({ faq: { question, answer, id } }) => {
       <div>
         <div
           onClick={handleToggle}
-          className="active:scale-95 duration-300 transition-all flex items-center select-none cursor-pointer justify-between border p-3"
+          className="active:translate-y-1 duration-300 transition-all flex items-center select-none cursor-pointer justify-between border p-3"
         >
-          <h2>{question}</h2>
+          <h2 className={`${open ? "font-semibold" : ""}`}>{question}</h2>
           {open ? <BiDownArrow /> : <BiUpArrow />}
         </div>
-        <p className={`bg-gray-200 p-3 ${open === false ? "hidden" : ""}`}>
+        <p className={`bg-gray-200 p-3 ${open === false ? "hidden mb-1" : ""}`}>
           {answer}
         </p>
       </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import AboutHero from "./AboutHero";
 import AboutSecondHero from "./AboutSecondHero";
+import AboutOurPeople from "./AboutOurPeople";
 
 const AboutUsHeader = () => {
   return (
@@ -14,6 +15,7 @@ const AboutUsHeader = () => {
       </div>
       <AboutHero />
       <AboutSecondHero/>
+      <AboutOurPeople/>
     </section>
   );
 };
